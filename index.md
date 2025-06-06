@@ -17,8 +17,8 @@ Philosophically, Glasgow is built around the extensibility and clarity. It offer
 
 ## See Also
 
-- [Installation](docs/installation.html)
-- [Examples](docs/examples.html)
+- [Installation](docs/installation.md)
+- [Examples](docs/examples.md)
 
 ## License
 
