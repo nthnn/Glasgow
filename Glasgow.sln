@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glasgow", "Glasgow\Glasgow.csproj", "{74C17BFB-A950-4C2C-95F2-398F48484E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlasgowExample", "GlasgowExample\GlasgowExample.csproj", "{A098EF8B-6618-4D11-A3C8-6864F34989EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74C17BFB-A950-4C2C-95F2-398F48484E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C17BFB-A950-4C2C-95F2-398F48484E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C17BFB-A950-4C2C-95F2-398F48484E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C17BFB-A950-4C2C-95F2-398F48484E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A098EF8B-6618-4D11-A3C8-6864F34989EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A098EF8B-6618-4D11-A3C8-6864F34989EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A098EF8B-6618-4D11-A3C8-6864F34989EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A098EF8B-6618-4D11-A3C8-6864F34989EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {952F2AF6-5EB3-4DB9-BFC2-A0A9E796717E}
+	EndGlobalSection
+EndGlobal

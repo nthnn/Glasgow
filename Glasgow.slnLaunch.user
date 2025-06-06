@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Glasgow\\Glasgow.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "GlasgowExample\\GlasgowExample.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
