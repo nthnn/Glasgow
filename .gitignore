@@ -1,0 +1,7 @@
+_site/
+.vs/
+api/
+Glasgow/bin
+Glasgow/obj
+GlasgowExample/bin
+GlasgowExample/obj
