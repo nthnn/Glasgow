@@ -1,5 +1,6 @@
 .vs/
 api/
+!docs/api/
 Glasgow/bin
 Glasgow/obj
 GlasgowExample/bin
