@@ -13,21 +13,61 @@ Philosophically, Glasgow is built around the extensibility and clarity. It offer
 
 ## Installation
 
-You can add Glasgow to your project using one of the following methods:
+Glasgow can be easily installed into your .NET project using NuGet Package Manager.
 
-### Option 1: Manual Integration
+### Installation via NuGet Package Manager
 
-Clone the repository and add the Glasgow source files directly into your `.NET` project:
+The simplest way to add Glasgow to your project is through NuGet.
+
+<p align="center">
+    <img alt="Glasgow on NuGet" src="assets/nuget-screenshot.png" />
+</p>
+
+### Using the .NET CLI
+
+Open your terminal or command prompt, navigate to your project's directory, and run the following command:
 
 ```bash
-git clone https://github.com/nthnn/Glasgow.git
+dotnet add package Glasgow --version 1.0.0
 ```
 
-Then add the relevant `.cs` files to your project manually or using your IDE.
+### Using Visual Studio
 
-### Option 2: NuGet (Coming Soon)
+1. Open your project in Visual Studio.
+2. Right-click on your project in the Solution Explorer and select "Manage NuGet Packages...".
+3. In the "Browse" tab, search for `Glasgow`.
+4. Select the `Glasgow` package and click "Install".
+5. Confirm the installation when prompted.
 
-We plan to publish Glasgow as a NuGet package for easier integration in the future. Stay tuned!
+### Using PowerShell (Package Manager Console in Visual Studio)
+
+If you're in Visual Studio, you can also use the Package Manager Console:
+
+1. Go to `Tools` > `NuGet Package Manager` > `Package Manager Console`.
+2. In the console, run the following command:
+
+    ```powershell
+    Install-Package Glasgow -Version 1.0.0
+    ```
+
+3. After installation, you can verify that the package is correctly referenced in your project file (e.g., `.csproj`). Look for an `<PackageReference>` entry similar to this:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Glasgow" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
+```
 
 ## Example Usage
 
@@ -156,9 +196,27 @@ Glasgow is released under the MIT License. You are free to use, modify, and dist
 ```
 Copyright 2025 Nathanne Isip
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge,
+to any person obtaining a copy of this software
+and associated documentation files (the “Software”),
+to deal in the Software without restriction,
+including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so,
+subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
 ```
