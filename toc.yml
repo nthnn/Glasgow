@@ -1,8 +1,9 @@
-### YamlMime:TableOfContent
 items:
-- uid: Glasgow
-  name: Glasgow
-  type: Namespace
+- name: Documentations
+  items:
+  - href: pages/installation.md
+  - href: pages/examples.md
+- name: Reference
   items:
   - uid: Glasgow.CryptographyUtil
     name: CryptographyUtil
@@ -43,4 +44,3 @@ items:
   - uid: Glasgow.UpdateCommand
     name: UpdateCommand
     type: Class
-memberLayout: SamePage
