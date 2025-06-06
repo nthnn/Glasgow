@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> | Glasgow </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" | Glasgow ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/nthnn/Glasgow/blob/main/docs/examples.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Glasgow">
+            Glasgow
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<h2 id="example-usage">Example Usage</h2>
+<h3 id="loading-and-saving-database-to-file">Loading and Saving Database to File</h3>
+<p>These examples demonstrate how to persist a GlasgowDB instance to disk and retrieve it later. The database is encrypted using a password for secure storage. This allows you to save the entire in-memory database state and reload it later without reinitializing or repopulating data manually.</p>
+<pre><code class="lang-csharp">GlasgowDB db = new GlasgowDB(); // Create database instance
+DatabaseIO.SaveToFile(          // Save the database instance to file
+    db,
+    &quot;database.glasgow&quot;,
+    &quot;this_is_your_password&quot;
+);
+</code></pre>
+<pre><code class="lang-csharp">// Load database from file with specified file name and password
+GlasgowDB db = DatabaseIO.LoadFromFile(
+    &quot;database.glasgow&quot;,
+    &quot;this_is_your_password&quot;
+);
+</code></pre>
+<h3 id="creating-database">Creating Database</h3>
+<p>This snippet shows how to initialize a new GlasgowDB instance and define tables within it. Each table is defined with a name and a list of columns. Tables are created dynamically and are ready to store and manipulate rows of data once defined.</p>
+<pre><code class="lang-csharp">GlasgowDB db = new GlasgowDB(); // Create database instance
+
+db.CreateTable(                 // Create new table on the instance
+    &quot;users&quot;,                    // Name the table &quot;users&quot;
+    &quot;id&quot;,                       // These are column names ...
+    &quot;username&quot;,                 //   |
+    &quot;email&quot;,                    //   |
+    &quot;age&quot;,                      //   |
+    &quot;is_active&quot;,                //   |
+    &quot;created_at&quot;,               //   |
+    &quot;profile_pic&quot;               //   |
+);
+db.CreateTable(                 // Create another table
+    &quot;products&quot;,                 // Name this table &quot;products&quot;
+    &quot;product_id&quot;,               // Here's the column names ...
+    &quot;name&quot;,                     //   |
+    &quot;price&quot;,                    //   |
+    &quot;stock_count&quot;               //   |
+);
+</code></pre>
+<h3 id="inserting-row-to-table">Inserting Row to Table</h3>
+<p>After creating tables, you can insert rows by specifying both the column names and the corresponding values in the correct order. The data can include strings, numbers, booleans, <code>DateTime</code> values, and even binary data such as images. The inserted values will be stored and indexed automatically.</p>
+<pre><code class="lang-csharp">db.InsertInto(
+    // Define the table name where the row will be added
+    &quot;users&quot;,
+    // Row name array
+    [
+        &quot;id&quot;,
+        &quot;username&quot;,
+        &quot;email&quot;,
+        &quot;age&quot;,
+        &quot;is_active&quot;,
+        &quot;created_at&quot;,
+        &quot;profile_pic&quot;
+    ],
+    // Values that will be put with the same
+    // arrangement as row names above
+    [
+        1, &quot;alice_test_user&quot;, &quot;alice@example.com&quot;, 30, true,
+        DateTime.UtcNow.AddDays(-10),
+        Encoding.UTF8.GetBytes(&quot;some_image_data_alice&quot;)
+    ]
+);
+
+db.InsertInto(
+    // Define the table name where the row will be added
+    &quot;products&quot;,
+    // Row name array
+    [
+        &quot;product_id&quot;,
+        &quot;name&quot;,
+        &quot;price&quot;,
+        &quot;stock_count&quot;
+    ],
+    // Values that will be put with the same
+    // arrangement as row names above
+    [ 101, &quot;Laptop&quot;, 1200.50, 10 ]
+);
+</code></pre>
+<h3 id="query-and-data-fetching">Query and Data Fetching</h3>
+<p>GlasgowDB includes a fluent query API for filtering, sorting, and selecting records. The following example demonstrates how to select users whose usernames start with <code>&quot;bob&quot;</code> and whose age is less than 30. Results are sorted by age in ascending order, and each row can be accessed like a dictionary for reading individual column values.</p>
+<pre><code class="lang-csharp">// Select the following rows from the &quot;users&quot; table
+var users = db.Select(
+        &quot;users&quot;,
+        &quot;id&quot;,
+        &quot;username&quot;,
+        &quot;email&quot;,
+        &quot;age&quot;,
+        &quot;created_at&quot;
+    )
+    .Where(Operator.STARTS_WITH, &quot;username&quot;, &quot;bob&quot;)
+    .Where(Operator.LESS_THAN, &quot;age&quot;, 30)
+    .Ascending(&quot;age&quot;)
+    .ToList();
+
+// Iterate on the fetched rows
+foreach (var user in users)
+    Console.WriteLine(
+        $&quot;ID: {user[&quot;id&quot;]}, Username: {user[&quot;username&quot;]}, &quot; +
+        $&quot;Email: {user[&quot;email&quot;]}, Age: {user[&quot;age&quot;]}, &quot; +
+        $&quot;Created: {user[&quot;created_at&quot;]}&quot;
+    );
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/nthnn/Glasgow/blob/main/docs/examples.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

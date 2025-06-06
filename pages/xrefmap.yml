@@ -1,0 +1,802 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Glasgow
+  name: Glasgow
+  href: api/Glasgow.html
+  commentId: N:Glasgow
+  fullName: Glasgow
+  nameWithType: Glasgow
+- uid: Glasgow.CryptographyUtil
+  name: CryptographyUtil
+  href: api/Glasgow.CryptographyUtil.html
+  commentId: T:Glasgow.CryptographyUtil
+  fullName: Glasgow.CryptographyUtil
+  nameWithType: CryptographyUtil
+- uid: Glasgow.CryptographyUtil.DeriveKey(System.String,System.Byte[])
+  name: DeriveKey(string, byte[])
+  href: api/Glasgow.CryptographyUtil.html#Glasgow_CryptographyUtil_DeriveKey_System_String_System_Byte___
+  commentId: M:Glasgow.CryptographyUtil.DeriveKey(System.String,System.Byte[])
+  name.vb: DeriveKey(String, Byte())
+  fullName: Glasgow.CryptographyUtil.DeriveKey(string, byte[])
+  fullName.vb: Glasgow.CryptographyUtil.DeriveKey(String, Byte())
+  nameWithType: CryptographyUtil.DeriveKey(string, byte[])
+  nameWithType.vb: CryptographyUtil.DeriveKey(String, Byte())
+- uid: Glasgow.CryptographyUtil.DeriveKey*
+  name: DeriveKey
+  href: api/Glasgow.CryptographyUtil.html#Glasgow_CryptographyUtil_DeriveKey_
+  commentId: Overload:Glasgow.CryptographyUtil.DeriveKey
+  isSpec: "True"
+  fullName: Glasgow.CryptographyUtil.DeriveKey
+  nameWithType: CryptographyUtil.DeriveKey
+- uid: Glasgow.DataTypes
+  name: DataTypes
+  href: api/Glasgow.DataTypes.html
+  commentId: T:Glasgow.DataTypes
+  fullName: Glasgow.DataTypes
+  nameWithType: DataTypes
+- uid: Glasgow.DataTypes.Blob
+  name: Blob
+  href: api/Glasgow.DataTypes.html#Glasgow_DataTypes_Blob
+  commentId: F:Glasgow.DataTypes.Blob
+  fullName: Glasgow.DataTypes.Blob
+  nameWithType: DataTypes.Blob
+- uid: Glasgow.DataTypes.Boolean
+  name: Boolean
+  href: api/Glasgow.DataTypes.html#Glasgow_DataTypes_Boolean
+  commentId: F:Glasgow.DataTypes.Boolean
+  fullName: Glasgow.DataTypes.Boolean
+  nameWithType: DataTypes.Boolean
+- uid: Glasgow.DataTypes.DateTime
+  name: DateTime
+  href: api/Glasgow.DataTypes.html#Glasgow_DataTypes_DateTime
+  commentId: F:Glasgow.DataTypes.DateTime
+  fullName: Glasgow.DataTypes.DateTime
+  nameWithType: DataTypes.DateTime
+- uid: Glasgow.DataTypes.Decimal
+  name: Decimal
+  href: api/Glasgow.DataTypes.html#Glasgow_DataTypes_Decimal
+  commentId: F:Glasgow.DataTypes.Decimal
+  fullName: Glasgow.DataTypes.Decimal
+  nameWithType: DataTypes.Decimal
+- uid: Glasgow.DataTypes.Double
+  name: Double
+  href: api/Glasgow.DataTypes.html#Glasgow_DataTypes_Double
+  commentId: F:Glasgow.DataTypes.Double
+  fullName: Glasgow.DataTypes.Double
+  nameWithType: DataTypes.Double
+- uid: Glasgow.DataTypes.Float
+  name: Float
+  href: api/Glasgow.DataTypes.html#Glasgow_DataTypes_Float
+  commentId: F:Glasgow.DataTypes.Float
+  fullName: Glasgow.DataTypes.Float
+  nameWithType: DataTypes.Float
+- uid: Glasgow.DataTypes.Integer
+  name: Integer
+  href: api/Glasgow.DataTypes.html#Glasgow_DataTypes_Integer
+  commentId: F:Glasgow.DataTypes.Integer
+  fullName: Glasgow.DataTypes.Integer
+  nameWithType: DataTypes.Integer
+- uid: Glasgow.DataTypes.Long
+  name: Long
+  href: api/Glasgow.DataTypes.html#Glasgow_DataTypes_Long
+  commentId: F:Glasgow.DataTypes.Long
+  fullName: Glasgow.DataTypes.Long
+  nameWithType: DataTypes.Long
+- uid: Glasgow.DataTypes.Null
+  name: "Null"
+  href: api/Glasgow.DataTypes.html#Glasgow_DataTypes_Null
+  commentId: F:Glasgow.DataTypes.Null
+  fullName: Glasgow.DataTypes.Null
+  nameWithType: DataTypes.Null
+- uid: Glasgow.DataTypes.String
+  name: String
+  href: api/Glasgow.DataTypes.html#Glasgow_DataTypes_String
+  commentId: F:Glasgow.DataTypes.String
+  fullName: Glasgow.DataTypes.String
+  nameWithType: DataTypes.String
+- uid: Glasgow.DatabaseIO
+  name: DatabaseIO
+  href: api/Glasgow.DatabaseIO.html
+  commentId: T:Glasgow.DatabaseIO
+  fullName: Glasgow.DatabaseIO
+  nameWithType: DatabaseIO
+- uid: Glasgow.DatabaseIO.LoadFromFile(System.String,System.String)
+  name: LoadFromFile(string, string)
+  href: api/Glasgow.DatabaseIO.html#Glasgow_DatabaseIO_LoadFromFile_System_String_System_String_
+  commentId: M:Glasgow.DatabaseIO.LoadFromFile(System.String,System.String)
+  name.vb: LoadFromFile(String, String)
+  fullName: Glasgow.DatabaseIO.LoadFromFile(string, string)
+  fullName.vb: Glasgow.DatabaseIO.LoadFromFile(String, String)
+  nameWithType: DatabaseIO.LoadFromFile(string, string)
+  nameWithType.vb: DatabaseIO.LoadFromFile(String, String)
+- uid: Glasgow.DatabaseIO.LoadFromFile*
+  name: LoadFromFile
+  href: api/Glasgow.DatabaseIO.html#Glasgow_DatabaseIO_LoadFromFile_
+  commentId: Overload:Glasgow.DatabaseIO.LoadFromFile
+  isSpec: "True"
+  fullName: Glasgow.DatabaseIO.LoadFromFile
+  nameWithType: DatabaseIO.LoadFromFile
+- uid: Glasgow.DatabaseIO.SaveToFile(Glasgow.GlasgowDB,System.String,System.String)
+  name: SaveToFile(GlasgowDB, string, string)
+  href: api/Glasgow.DatabaseIO.html#Glasgow_DatabaseIO_SaveToFile_Glasgow_GlasgowDB_System_String_System_String_
+  commentId: M:Glasgow.DatabaseIO.SaveToFile(Glasgow.GlasgowDB,System.String,System.String)
+  name.vb: SaveToFile(GlasgowDB, String, String)
+  fullName: Glasgow.DatabaseIO.SaveToFile(Glasgow.GlasgowDB, string, string)
+  fullName.vb: Glasgow.DatabaseIO.SaveToFile(Glasgow.GlasgowDB, String, String)
+  nameWithType: DatabaseIO.SaveToFile(GlasgowDB, string, string)
+  nameWithType.vb: DatabaseIO.SaveToFile(GlasgowDB, String, String)
+- uid: Glasgow.DatabaseIO.SaveToFile*
+  name: SaveToFile
+  href: api/Glasgow.DatabaseIO.html#Glasgow_DatabaseIO_SaveToFile_
+  commentId: Overload:Glasgow.DatabaseIO.SaveToFile
+  isSpec: "True"
+  fullName: Glasgow.DatabaseIO.SaveToFile
+  nameWithType: DatabaseIO.SaveToFile
+- uid: Glasgow.DeleteCommand
+  name: DeleteCommand
+  href: api/Glasgow.DeleteCommand.html
+  commentId: T:Glasgow.DeleteCommand
+  fullName: Glasgow.DeleteCommand
+  nameWithType: DeleteCommand
+- uid: Glasgow.DeleteCommand.#ctor(Glasgow.GlasgowDB,System.String)
+  name: DeleteCommand(GlasgowDB, string)
+  href: api/Glasgow.DeleteCommand.html#Glasgow_DeleteCommand__ctor_Glasgow_GlasgowDB_System_String_
+  commentId: M:Glasgow.DeleteCommand.#ctor(Glasgow.GlasgowDB,System.String)
+  name.vb: New(GlasgowDB, String)
+  fullName: Glasgow.DeleteCommand.DeleteCommand(Glasgow.GlasgowDB, string)
+  fullName.vb: Glasgow.DeleteCommand.New(Glasgow.GlasgowDB, String)
+  nameWithType: DeleteCommand.DeleteCommand(GlasgowDB, string)
+  nameWithType.vb: DeleteCommand.New(GlasgowDB, String)
+- uid: Glasgow.DeleteCommand.#ctor*
+  name: DeleteCommand
+  href: api/Glasgow.DeleteCommand.html#Glasgow_DeleteCommand__ctor_
+  commentId: Overload:Glasgow.DeleteCommand.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Glasgow.DeleteCommand.DeleteCommand
+  fullName.vb: Glasgow.DeleteCommand.New
+  nameWithType: DeleteCommand.DeleteCommand
+  nameWithType.vb: DeleteCommand.New
+- uid: Glasgow.DeleteCommand.Execute
+  name: Execute()
+  href: api/Glasgow.DeleteCommand.html#Glasgow_DeleteCommand_Execute
+  commentId: M:Glasgow.DeleteCommand.Execute
+  fullName: Glasgow.DeleteCommand.Execute()
+  nameWithType: DeleteCommand.Execute()
+- uid: Glasgow.DeleteCommand.Execute*
+  name: Execute
+  href: api/Glasgow.DeleteCommand.html#Glasgow_DeleteCommand_Execute_
+  commentId: Overload:Glasgow.DeleteCommand.Execute
+  isSpec: "True"
+  fullName: Glasgow.DeleteCommand.Execute
+  nameWithType: DeleteCommand.Execute
+- uid: Glasgow.DeleteCommand.Where(Glasgow.Operator,System.String,System.Object)
+  name: Where(Operator, string, object)
+  href: api/Glasgow.DeleteCommand.html#Glasgow_DeleteCommand_Where_Glasgow_Operator_System_String_System_Object_
+  commentId: M:Glasgow.DeleteCommand.Where(Glasgow.Operator,System.String,System.Object)
+  name.vb: Where(Operator, String, Object)
+  fullName: Glasgow.DeleteCommand.Where(Glasgow.Operator, string, object)
+  fullName.vb: Glasgow.DeleteCommand.Where(Glasgow.Operator, String, Object)
+  nameWithType: DeleteCommand.Where(Operator, string, object)
+  nameWithType.vb: DeleteCommand.Where(Operator, String, Object)
+- uid: Glasgow.DeleteCommand.Where*
+  name: Where
+  href: api/Glasgow.DeleteCommand.html#Glasgow_DeleteCommand_Where_
+  commentId: Overload:Glasgow.DeleteCommand.Where
+  isSpec: "True"
+  fullName: Glasgow.DeleteCommand.Where
+  nameWithType: DeleteCommand.Where
+- uid: Glasgow.GlasgowDB
+  name: GlasgowDB
+  href: api/Glasgow.GlasgowDB.html
+  commentId: T:Glasgow.GlasgowDB
+  fullName: Glasgow.GlasgowDB
+  nameWithType: GlasgowDB
+- uid: Glasgow.GlasgowDB.#ctor
+  name: GlasgowDB()
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB__ctor
+  commentId: M:Glasgow.GlasgowDB.#ctor
+  name.vb: New()
+  fullName: Glasgow.GlasgowDB.GlasgowDB()
+  fullName.vb: Glasgow.GlasgowDB.New()
+  nameWithType: GlasgowDB.GlasgowDB()
+  nameWithType.vb: GlasgowDB.New()
+- uid: Glasgow.GlasgowDB.#ctor*
+  name: GlasgowDB
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB__ctor_
+  commentId: Overload:Glasgow.GlasgowDB.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Glasgow.GlasgowDB.GlasgowDB
+  fullName.vb: Glasgow.GlasgowDB.New
+  nameWithType: GlasgowDB.GlasgowDB
+  nameWithType.vb: GlasgowDB.New
+- uid: Glasgow.GlasgowDB.CreateTable(System.String,System.String[])
+  name: CreateTable(string, params string[])
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_CreateTable_System_String_System_String___
+  commentId: M:Glasgow.GlasgowDB.CreateTable(System.String,System.String[])
+  name.vb: CreateTable(String, ParamArray String())
+  fullName: Glasgow.GlasgowDB.CreateTable(string, params string[])
+  fullName.vb: Glasgow.GlasgowDB.CreateTable(String, ParamArray String())
+  nameWithType: GlasgowDB.CreateTable(string, params string[])
+  nameWithType.vb: GlasgowDB.CreateTable(String, ParamArray String())
+- uid: Glasgow.GlasgowDB.CreateTable*
+  name: CreateTable
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_CreateTable_
+  commentId: Overload:Glasgow.GlasgowDB.CreateTable
+  isSpec: "True"
+  fullName: Glasgow.GlasgowDB.CreateTable
+  nameWithType: GlasgowDB.CreateTable
+- uid: Glasgow.GlasgowDB.Database
+  name: Database
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_Database
+  commentId: P:Glasgow.GlasgowDB.Database
+  fullName: Glasgow.GlasgowDB.Database
+  nameWithType: GlasgowDB.Database
+- uid: Glasgow.GlasgowDB.Database*
+  name: Database
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_Database_
+  commentId: Overload:Glasgow.GlasgowDB.Database
+  isSpec: "True"
+  fullName: Glasgow.GlasgowDB.Database
+  nameWithType: GlasgowDB.Database
+- uid: Glasgow.GlasgowDB.Delete(System.String)
+  name: Delete(string)
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_Delete_System_String_
+  commentId: M:Glasgow.GlasgowDB.Delete(System.String)
+  name.vb: Delete(String)
+  fullName: Glasgow.GlasgowDB.Delete(string)
+  fullName.vb: Glasgow.GlasgowDB.Delete(String)
+  nameWithType: GlasgowDB.Delete(string)
+  nameWithType.vb: GlasgowDB.Delete(String)
+- uid: Glasgow.GlasgowDB.Delete*
+  name: Delete
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_Delete_
+  commentId: Overload:Glasgow.GlasgowDB.Delete
+  isSpec: "True"
+  fullName: Glasgow.GlasgowDB.Delete
+  nameWithType: GlasgowDB.Delete
+- uid: Glasgow.GlasgowDB.DropTable(System.String)
+  name: DropTable(string)
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_DropTable_System_String_
+  commentId: M:Glasgow.GlasgowDB.DropTable(System.String)
+  name.vb: DropTable(String)
+  fullName: Glasgow.GlasgowDB.DropTable(string)
+  fullName.vb: Glasgow.GlasgowDB.DropTable(String)
+  nameWithType: GlasgowDB.DropTable(string)
+  nameWithType.vb: GlasgowDB.DropTable(String)
+- uid: Glasgow.GlasgowDB.DropTable*
+  name: DropTable
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_DropTable_
+  commentId: Overload:Glasgow.GlasgowDB.DropTable
+  isSpec: "True"
+  fullName: Glasgow.GlasgowDB.DropTable
+  nameWithType: GlasgowDB.DropTable
+- uid: Glasgow.GlasgowDB.InsertInto(System.String,System.String[],System.Object[])
+  name: InsertInto(string, string[], object[])
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_InsertInto_System_String_System_String___System_Object___
+  commentId: M:Glasgow.GlasgowDB.InsertInto(System.String,System.String[],System.Object[])
+  name.vb: InsertInto(String, String(), Object())
+  fullName: Glasgow.GlasgowDB.InsertInto(string, string[], object[])
+  fullName.vb: Glasgow.GlasgowDB.InsertInto(String, String(), Object())
+  nameWithType: GlasgowDB.InsertInto(string, string[], object[])
+  nameWithType.vb: GlasgowDB.InsertInto(String, String(), Object())
+- uid: Glasgow.GlasgowDB.InsertInto*
+  name: InsertInto
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_InsertInto_
+  commentId: Overload:Glasgow.GlasgowDB.InsertInto
+  isSpec: "True"
+  fullName: Glasgow.GlasgowDB.InsertInto
+  nameWithType: GlasgowDB.InsertInto
+- uid: Glasgow.GlasgowDB.Select(System.String,System.String[])
+  name: Select(string, params string[])
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_Select_System_String_System_String___
+  commentId: M:Glasgow.GlasgowDB.Select(System.String,System.String[])
+  name.vb: Select(String, ParamArray String())
+  fullName: Glasgow.GlasgowDB.Select(string, params string[])
+  fullName.vb: Glasgow.GlasgowDB.Select(String, ParamArray String())
+  nameWithType: GlasgowDB.Select(string, params string[])
+  nameWithType.vb: GlasgowDB.Select(String, ParamArray String())
+- uid: Glasgow.GlasgowDB.Select*
+  name: Select
+  href: api/Glasgow.GlasgowDB.html#Glasgow_GlasgowDB_Select_
+  commentId: Overload:Glasgow.GlasgowDB.Select
+  isSpec: "True"
+  fullName: Glasgow.GlasgowDB.Select
+  nameWithType: GlasgowDB.Select
+- uid: Glasgow.Null
+  name: "Null"
+  href: api/Glasgow.Null.html
+  commentId: T:Glasgow.Null
+  fullName: Glasgow.Null
+  nameWithType: "Null"
+- uid: Glasgow.Null.GetNullObject
+  name: GetNullObject()
+  href: api/Glasgow.Null.html#Glasgow_Null_GetNullObject
+  commentId: M:Glasgow.Null.GetNullObject
+  fullName: Glasgow.Null.GetNullObject()
+  nameWithType: Null.GetNullObject()
+- uid: Glasgow.Null.GetNullObject*
+  name: GetNullObject
+  href: api/Glasgow.Null.html#Glasgow_Null_GetNullObject_
+  commentId: Overload:Glasgow.Null.GetNullObject
+  isSpec: "True"
+  fullName: Glasgow.Null.GetNullObject
+  nameWithType: Null.GetNullObject
+- uid: Glasgow.Null.IsNullObject(System.Object)
+  name: IsNullObject(object)
+  href: api/Glasgow.Null.html#Glasgow_Null_IsNullObject_System_Object_
+  commentId: M:Glasgow.Null.IsNullObject(System.Object)
+  name.vb: IsNullObject(Object)
+  fullName: Glasgow.Null.IsNullObject(object)
+  fullName.vb: Glasgow.Null.IsNullObject(Object)
+  nameWithType: Null.IsNullObject(object)
+  nameWithType.vb: Null.IsNullObject(Object)
+- uid: Glasgow.Null.IsNullObject*
+  name: IsNullObject
+  href: api/Glasgow.Null.html#Glasgow_Null_IsNullObject_
+  commentId: Overload:Glasgow.Null.IsNullObject
+  isSpec: "True"
+  fullName: Glasgow.Null.IsNullObject
+  nameWithType: Null.IsNullObject
+- uid: Glasgow.Operator
+  name: Operator
+  href: api/Glasgow.Operator.html
+  commentId: T:Glasgow.Operator
+  fullName: Glasgow.Operator
+  nameWithType: Operator
+- uid: Glasgow.Operator.CONTAINS
+  name: CONTAINS
+  href: api/Glasgow.Operator.html#Glasgow_Operator_CONTAINS
+  commentId: F:Glasgow.Operator.CONTAINS
+  fullName: Glasgow.Operator.CONTAINS
+  nameWithType: Operator.CONTAINS
+- uid: Glasgow.Operator.ENDS_WITH
+  name: ENDS_WITH
+  href: api/Glasgow.Operator.html#Glasgow_Operator_ENDS_WITH
+  commentId: F:Glasgow.Operator.ENDS_WITH
+  fullName: Glasgow.Operator.ENDS_WITH
+  nameWithType: Operator.ENDS_WITH
+- uid: Glasgow.Operator.EQUALS
+  name: EQUALS
+  href: api/Glasgow.Operator.html#Glasgow_Operator_EQUALS
+  commentId: F:Glasgow.Operator.EQUALS
+  fullName: Glasgow.Operator.EQUALS
+  nameWithType: Operator.EQUALS
+- uid: Glasgow.Operator.GREATER_THAN
+  name: GREATER_THAN
+  href: api/Glasgow.Operator.html#Glasgow_Operator_GREATER_THAN
+  commentId: F:Glasgow.Operator.GREATER_THAN
+  fullName: Glasgow.Operator.GREATER_THAN
+  nameWithType: Operator.GREATER_THAN
+- uid: Glasgow.Operator.GREATER_THAN_OR_EQUAL
+  name: GREATER_THAN_OR_EQUAL
+  href: api/Glasgow.Operator.html#Glasgow_Operator_GREATER_THAN_OR_EQUAL
+  commentId: F:Glasgow.Operator.GREATER_THAN_OR_EQUAL
+  fullName: Glasgow.Operator.GREATER_THAN_OR_EQUAL
+  nameWithType: Operator.GREATER_THAN_OR_EQUAL
+- uid: Glasgow.Operator.LESS_THAN
+  name: LESS_THAN
+  href: api/Glasgow.Operator.html#Glasgow_Operator_LESS_THAN
+  commentId: F:Glasgow.Operator.LESS_THAN
+  fullName: Glasgow.Operator.LESS_THAN
+  nameWithType: Operator.LESS_THAN
+- uid: Glasgow.Operator.LESS_THAN_OR_EQUAL
+  name: LESS_THAN_OR_EQUAL
+  href: api/Glasgow.Operator.html#Glasgow_Operator_LESS_THAN_OR_EQUAL
+  commentId: F:Glasgow.Operator.LESS_THAN_OR_EQUAL
+  fullName: Glasgow.Operator.LESS_THAN_OR_EQUAL
+  nameWithType: Operator.LESS_THAN_OR_EQUAL
+- uid: Glasgow.Operator.NOT_EQUALS
+  name: NOT_EQUALS
+  href: api/Glasgow.Operator.html#Glasgow_Operator_NOT_EQUALS
+  commentId: F:Glasgow.Operator.NOT_EQUALS
+  fullName: Glasgow.Operator.NOT_EQUALS
+  nameWithType: Operator.NOT_EQUALS
+- uid: Glasgow.Operator.STARTS_WITH
+  name: STARTS_WITH
+  href: api/Glasgow.Operator.html#Glasgow_Operator_STARTS_WITH
+  commentId: F:Glasgow.Operator.STARTS_WITH
+  fullName: Glasgow.Operator.STARTS_WITH
+  nameWithType: Operator.STARTS_WITH
+- uid: Glasgow.QueryBase
+  name: QueryBase
+  href: api/Glasgow.QueryBase.html
+  commentId: T:Glasgow.QueryBase
+  fullName: Glasgow.QueryBase
+  nameWithType: QueryBase
+- uid: Glasgow.QueryBase.#ctor
+  name: QueryBase()
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase__ctor
+  commentId: M:Glasgow.QueryBase.#ctor
+  name.vb: New()
+  fullName: Glasgow.QueryBase.QueryBase()
+  fullName.vb: Glasgow.QueryBase.New()
+  nameWithType: QueryBase.QueryBase()
+  nameWithType.vb: QueryBase.New()
+- uid: Glasgow.QueryBase.#ctor*
+  name: QueryBase
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase__ctor_
+  commentId: Overload:Glasgow.QueryBase.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Glasgow.QueryBase.QueryBase
+  fullName.vb: Glasgow.QueryBase.New
+  nameWithType: QueryBase.QueryBase
+  nameWithType.vb: QueryBase.New
+- uid: Glasgow.QueryBase.ApplyFilters(System.Collections.Generic.IEnumerable{System.Collections.Generic.Dictionary{System.String,System.Object}})
+  name: ApplyFilters(IEnumerable<Dictionary<string, object>>)
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase_ApplyFilters_System_Collections_Generic_IEnumerable_System_Collections_Generic_Dictionary_System_String_System_Object___
+  commentId: M:Glasgow.QueryBase.ApplyFilters(System.Collections.Generic.IEnumerable{System.Collections.Generic.Dictionary{System.String,System.Object}})
+  name.vb: ApplyFilters(IEnumerable(Of Dictionary(Of String, Object)))
+  fullName: Glasgow.QueryBase.ApplyFilters(System.Collections.Generic.IEnumerable<System.Collections.Generic.Dictionary<string, object>>)
+  fullName.vb: Glasgow.QueryBase.ApplyFilters(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.Dictionary(Of String, Object)))
+  nameWithType: QueryBase.ApplyFilters(IEnumerable<Dictionary<string, object>>)
+  nameWithType.vb: QueryBase.ApplyFilters(IEnumerable(Of Dictionary(Of String, Object)))
+- uid: Glasgow.QueryBase.ApplyFilters*
+  name: ApplyFilters
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase_ApplyFilters_
+  commentId: Overload:Glasgow.QueryBase.ApplyFilters
+  isSpec: "True"
+  fullName: Glasgow.QueryBase.ApplyFilters
+  nameWithType: QueryBase.ApplyFilters
+- uid: Glasgow.QueryBase.IsNumericType(System.Type)
+  name: IsNumericType(Type)
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase_IsNumericType_System_Type_
+  commentId: M:Glasgow.QueryBase.IsNumericType(System.Type)
+  fullName: Glasgow.QueryBase.IsNumericType(System.Type)
+  nameWithType: QueryBase.IsNumericType(Type)
+- uid: Glasgow.QueryBase.IsNumericType*
+  name: IsNumericType
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase_IsNumericType_
+  commentId: Overload:Glasgow.QueryBase.IsNumericType
+  isSpec: "True"
+  fullName: Glasgow.QueryBase.IsNumericType
+  nameWithType: QueryBase.IsNumericType
+- uid: Glasgow.QueryBase.Where*
+  name: Where
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase_Where_
+  commentId: Overload:Glasgow.QueryBase.Where
+  isSpec: "True"
+  fullName: Glasgow.QueryBase.Where
+  nameWithType: QueryBase.Where
+- uid: Glasgow.QueryBase.Where``1(Glasgow.Operator,System.String,System.Object)
+  name: Where<T>(Operator, string, object)
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase_Where__1_Glasgow_Operator_System_String_System_Object_
+  commentId: M:Glasgow.QueryBase.Where``1(Glasgow.Operator,System.String,System.Object)
+  name.vb: Where(Of T)(Operator, String, Object)
+  fullName: Glasgow.QueryBase.Where<T>(Glasgow.Operator, string, object)
+  fullName.vb: Glasgow.QueryBase.Where(Of T)(Glasgow.Operator, String, Object)
+  nameWithType: QueryBase.Where<T>(Operator, string, object)
+  nameWithType.vb: QueryBase.Where(Of T)(Operator, String, Object)
+- uid: Glasgow.QueryBase.WildcardMatch(System.String,System.String)
+  name: WildcardMatch(string, string)
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase_WildcardMatch_System_String_System_String_
+  commentId: M:Glasgow.QueryBase.WildcardMatch(System.String,System.String)
+  name.vb: WildcardMatch(String, String)
+  fullName: Glasgow.QueryBase.WildcardMatch(string, string)
+  fullName.vb: Glasgow.QueryBase.WildcardMatch(String, String)
+  nameWithType: QueryBase.WildcardMatch(string, string)
+  nameWithType.vb: QueryBase.WildcardMatch(String, String)
+- uid: Glasgow.QueryBase.WildcardMatch*
+  name: WildcardMatch
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase_WildcardMatch_
+  commentId: Overload:Glasgow.QueryBase.WildcardMatch
+  isSpec: "True"
+  fullName: Glasgow.QueryBase.WildcardMatch
+  nameWithType: QueryBase.WildcardMatch
+- uid: Glasgow.QueryBase._filters
+  name: _filters
+  href: api/Glasgow.QueryBase.html#Glasgow_QueryBase__filters
+  commentId: F:Glasgow.QueryBase._filters
+  fullName: Glasgow.QueryBase._filters
+  nameWithType: QueryBase._filters
+- uid: Glasgow.ResultSet
+  name: ResultSet
+  href: api/Glasgow.ResultSet.html
+  commentId: T:Glasgow.ResultSet
+  fullName: Glasgow.ResultSet
+  nameWithType: ResultSet
+- uid: Glasgow.ResultSet.#ctor(System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}},System.Collections.Generic.List{System.String},Glasgow.GlasgowDB)
+  name: ResultSet(List<Dictionary<string, object>>, List<string>, GlasgowDB)
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet__ctor_System_Collections_Generic_List_System_Collections_Generic_Dictionary_System_String_System_Object___System_Collections_Generic_List_System_String__Glasgow_GlasgowDB_
+  commentId: M:Glasgow.ResultSet.#ctor(System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}},System.Collections.Generic.List{System.String},Glasgow.GlasgowDB)
+  name.vb: New(List(Of Dictionary(Of String, Object)), List(Of String), GlasgowDB)
+  fullName: Glasgow.ResultSet.ResultSet(System.Collections.Generic.List<System.Collections.Generic.Dictionary<string, object>>, System.Collections.Generic.List<string>, Glasgow.GlasgowDB)
+  fullName.vb: Glasgow.ResultSet.New(System.Collections.Generic.List(Of System.Collections.Generic.Dictionary(Of String, Object)), System.Collections.Generic.List(Of String), Glasgow.GlasgowDB)
+  nameWithType: ResultSet.ResultSet(List<Dictionary<string, object>>, List<string>, GlasgowDB)
+  nameWithType.vb: ResultSet.New(List(Of Dictionary(Of String, Object)), List(Of String), GlasgowDB)
+- uid: Glasgow.ResultSet.#ctor*
+  name: ResultSet
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet__ctor_
+  commentId: Overload:Glasgow.ResultSet.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Glasgow.ResultSet.ResultSet
+  fullName.vb: Glasgow.ResultSet.New
+  nameWithType: ResultSet.ResultSet
+  nameWithType.vb: ResultSet.New
+- uid: Glasgow.ResultSet.Ascending(System.String)
+  name: Ascending(string)
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_Ascending_System_String_
+  commentId: M:Glasgow.ResultSet.Ascending(System.String)
+  name.vb: Ascending(String)
+  fullName: Glasgow.ResultSet.Ascending(string)
+  fullName.vb: Glasgow.ResultSet.Ascending(String)
+  nameWithType: ResultSet.Ascending(string)
+  nameWithType.vb: ResultSet.Ascending(String)
+- uid: Glasgow.ResultSet.Ascending*
+  name: Ascending
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_Ascending_
+  commentId: Overload:Glasgow.ResultSet.Ascending
+  isSpec: "True"
+  fullName: Glasgow.ResultSet.Ascending
+  nameWithType: ResultSet.Ascending
+- uid: Glasgow.ResultSet.Descending(System.String)
+  name: Descending(string)
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_Descending_System_String_
+  commentId: M:Glasgow.ResultSet.Descending(System.String)
+  name.vb: Descending(String)
+  fullName: Glasgow.ResultSet.Descending(string)
+  fullName.vb: Glasgow.ResultSet.Descending(String)
+  nameWithType: ResultSet.Descending(string)
+  nameWithType.vb: ResultSet.Descending(String)
+- uid: Glasgow.ResultSet.Descending*
+  name: Descending
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_Descending_
+  commentId: Overload:Glasgow.ResultSet.Descending
+  isSpec: "True"
+  fullName: Glasgow.ResultSet.Descending
+  nameWithType: ResultSet.Descending
+- uid: Glasgow.ResultSet.OrderBy(System.String,Glasgow.SortDirection)
+  name: OrderBy(string, SortDirection)
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_OrderBy_System_String_Glasgow_SortDirection_
+  commentId: M:Glasgow.ResultSet.OrderBy(System.String,Glasgow.SortDirection)
+  name.vb: OrderBy(String, SortDirection)
+  fullName: Glasgow.ResultSet.OrderBy(string, Glasgow.SortDirection)
+  fullName.vb: Glasgow.ResultSet.OrderBy(String, Glasgow.SortDirection)
+  nameWithType: ResultSet.OrderBy(string, SortDirection)
+  nameWithType.vb: ResultSet.OrderBy(String, SortDirection)
+- uid: Glasgow.ResultSet.OrderBy*
+  name: OrderBy
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_OrderBy_
+  commentId: Overload:Glasgow.ResultSet.OrderBy
+  isSpec: "True"
+  fullName: Glasgow.ResultSet.OrderBy
+  nameWithType: ResultSet.OrderBy
+- uid: Glasgow.ResultSet.ToList
+  name: ToList()
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_ToList
+  commentId: M:Glasgow.ResultSet.ToList
+  fullName: Glasgow.ResultSet.ToList()
+  nameWithType: ResultSet.ToList()
+- uid: Glasgow.ResultSet.ToList*
+  name: ToList
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_ToList_
+  commentId: Overload:Glasgow.ResultSet.ToList
+  isSpec: "True"
+  fullName: Glasgow.ResultSet.ToList
+  nameWithType: ResultSet.ToList
+- uid: Glasgow.ResultSet.Union(Glasgow.ResultSet)
+  name: Union(ResultSet)
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_Union_Glasgow_ResultSet_
+  commentId: M:Glasgow.ResultSet.Union(Glasgow.ResultSet)
+  fullName: Glasgow.ResultSet.Union(Glasgow.ResultSet)
+  nameWithType: ResultSet.Union(ResultSet)
+- uid: Glasgow.ResultSet.Union*
+  name: Union
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_Union_
+  commentId: Overload:Glasgow.ResultSet.Union
+  isSpec: "True"
+  fullName: Glasgow.ResultSet.Union
+  nameWithType: ResultSet.Union
+- uid: Glasgow.ResultSet.Where(Glasgow.Operator,System.String,System.Object)
+  name: Where(Operator, string, object)
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_Where_Glasgow_Operator_System_String_System_Object_
+  commentId: M:Glasgow.ResultSet.Where(Glasgow.Operator,System.String,System.Object)
+  name.vb: Where(Operator, String, Object)
+  fullName: Glasgow.ResultSet.Where(Glasgow.Operator, string, object)
+  fullName.vb: Glasgow.ResultSet.Where(Glasgow.Operator, String, Object)
+  nameWithType: ResultSet.Where(Operator, string, object)
+  nameWithType.vb: ResultSet.Where(Operator, String, Object)
+- uid: Glasgow.ResultSet.Where*
+  name: Where
+  href: api/Glasgow.ResultSet.html#Glasgow_ResultSet_Where_
+  commentId: Overload:Glasgow.ResultSet.Where
+  isSpec: "True"
+  fullName: Glasgow.ResultSet.Where
+  nameWithType: ResultSet.Where
+- uid: Glasgow.SortComparer
+  name: SortComparer
+  href: api/Glasgow.SortComparer.html
+  commentId: T:Glasgow.SortComparer
+  fullName: Glasgow.SortComparer
+  nameWithType: SortComparer
+- uid: Glasgow.SortComparer.#ctor(System.Boolean)
+  name: SortComparer(bool)
+  href: api/Glasgow.SortComparer.html#Glasgow_SortComparer__ctor_System_Boolean_
+  commentId: M:Glasgow.SortComparer.#ctor(System.Boolean)
+  name.vb: New(Boolean)
+  fullName: Glasgow.SortComparer.SortComparer(bool)
+  fullName.vb: Glasgow.SortComparer.New(Boolean)
+  nameWithType: SortComparer.SortComparer(bool)
+  nameWithType.vb: SortComparer.New(Boolean)
+- uid: Glasgow.SortComparer.#ctor*
+  name: SortComparer
+  href: api/Glasgow.SortComparer.html#Glasgow_SortComparer__ctor_
+  commentId: Overload:Glasgow.SortComparer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Glasgow.SortComparer.SortComparer
+  fullName.vb: Glasgow.SortComparer.New
+  nameWithType: SortComparer.SortComparer
+  nameWithType.vb: SortComparer.New
+- uid: Glasgow.SortComparer.Compare(System.Object,System.Object)
+  name: Compare(object?, object?)
+  href: api/Glasgow.SortComparer.html#Glasgow_SortComparer_Compare_System_Object_System_Object_
+  commentId: M:Glasgow.SortComparer.Compare(System.Object,System.Object)
+  name.vb: Compare(Object, Object)
+  fullName: Glasgow.SortComparer.Compare(object?, object?)
+  fullName.vb: Glasgow.SortComparer.Compare(Object, Object)
+  nameWithType: SortComparer.Compare(object?, object?)
+  nameWithType.vb: SortComparer.Compare(Object, Object)
+- uid: Glasgow.SortComparer.Compare*
+  name: Compare
+  href: api/Glasgow.SortComparer.html#Glasgow_SortComparer_Compare_
+  commentId: Overload:Glasgow.SortComparer.Compare
+  isSpec: "True"
+  fullName: Glasgow.SortComparer.Compare
+  nameWithType: SortComparer.Compare
+- uid: Glasgow.SortDirection
+  name: SortDirection
+  href: api/Glasgow.SortDirection.html
+  commentId: T:Glasgow.SortDirection
+  fullName: Glasgow.SortDirection
+  nameWithType: SortDirection
+- uid: Glasgow.SortDirection.Ascending
+  name: Ascending
+  href: api/Glasgow.SortDirection.html#Glasgow_SortDirection_Ascending
+  commentId: F:Glasgow.SortDirection.Ascending
+  fullName: Glasgow.SortDirection.Ascending
+  nameWithType: SortDirection.Ascending
+- uid: Glasgow.SortDirection.Descending
+  name: Descending
+  href: api/Glasgow.SortDirection.html#Glasgow_SortDirection_Descending
+  commentId: F:Glasgow.SortDirection.Descending
+  fullName: Glasgow.SortDirection.Descending
+  nameWithType: SortDirection.Descending
+- uid: Glasgow.Table
+  name: Table
+  href: api/Glasgow.Table.html
+  commentId: T:Glasgow.Table
+  fullName: Glasgow.Table
+  nameWithType: Table
+- uid: Glasgow.Table.#ctor(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: Table(string, IEnumerable<string>?)
+  href: api/Glasgow.Table.html#Glasgow_Table__ctor_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:Glasgow.Table.#ctor(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: New(String, IEnumerable(Of String))
+  fullName: Glasgow.Table.Table(string, System.Collections.Generic.IEnumerable<string>?)
+  fullName.vb: Glasgow.Table.New(String, System.Collections.Generic.IEnumerable(Of String))
+  nameWithType: Table.Table(string, IEnumerable<string>?)
+  nameWithType.vb: Table.New(String, IEnumerable(Of String))
+- uid: Glasgow.Table.#ctor*
+  name: Table
+  href: api/Glasgow.Table.html#Glasgow_Table__ctor_
+  commentId: Overload:Glasgow.Table.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Glasgow.Table.Table
+  fullName.vb: Glasgow.Table.New
+  nameWithType: Table.Table
+  nameWithType.vb: Table.New
+- uid: Glasgow.Table.ColumnNames
+  name: ColumnNames
+  href: api/Glasgow.Table.html#Glasgow_Table_ColumnNames
+  commentId: P:Glasgow.Table.ColumnNames
+  fullName: Glasgow.Table.ColumnNames
+  nameWithType: Table.ColumnNames
+- uid: Glasgow.Table.ColumnNames*
+  name: ColumnNames
+  href: api/Glasgow.Table.html#Glasgow_Table_ColumnNames_
+  commentId: Overload:Glasgow.Table.ColumnNames
+  isSpec: "True"
+  fullName: Glasgow.Table.ColumnNames
+  nameWithType: Table.ColumnNames
+- uid: Glasgow.Table.Name
+  name: Name
+  href: api/Glasgow.Table.html#Glasgow_Table_Name
+  commentId: P:Glasgow.Table.Name
+  fullName: Glasgow.Table.Name
+  nameWithType: Table.Name
+- uid: Glasgow.Table.Name*
+  name: Name
+  href: api/Glasgow.Table.html#Glasgow_Table_Name_
+  commentId: Overload:Glasgow.Table.Name
+  isSpec: "True"
+  fullName: Glasgow.Table.Name
+  nameWithType: Table.Name
+- uid: Glasgow.Table.Rows
+  name: Rows
+  href: api/Glasgow.Table.html#Glasgow_Table_Rows
+  commentId: P:Glasgow.Table.Rows
+  fullName: Glasgow.Table.Rows
+  nameWithType: Table.Rows
+- uid: Glasgow.Table.Rows*
+  name: Rows
+  href: api/Glasgow.Table.html#Glasgow_Table_Rows_
+  commentId: Overload:Glasgow.Table.Rows
+  isSpec: "True"
+  fullName: Glasgow.Table.Rows
+  nameWithType: Table.Rows
+- uid: Glasgow.UpdateCommand
+  name: UpdateCommand
+  href: api/Glasgow.UpdateCommand.html
+  commentId: T:Glasgow.UpdateCommand
+  fullName: Glasgow.UpdateCommand
+  nameWithType: UpdateCommand
+- uid: Glasgow.UpdateCommand.#ctor(Glasgow.GlasgowDB,System.String)
+  name: UpdateCommand(GlasgowDB, string)
+  href: api/Glasgow.UpdateCommand.html#Glasgow_UpdateCommand__ctor_Glasgow_GlasgowDB_System_String_
+  commentId: M:Glasgow.UpdateCommand.#ctor(Glasgow.GlasgowDB,System.String)
+  name.vb: New(GlasgowDB, String)
+  fullName: Glasgow.UpdateCommand.UpdateCommand(Glasgow.GlasgowDB, string)
+  fullName.vb: Glasgow.UpdateCommand.New(Glasgow.GlasgowDB, String)
+  nameWithType: UpdateCommand.UpdateCommand(GlasgowDB, string)
+  nameWithType.vb: UpdateCommand.New(GlasgowDB, String)
+- uid: Glasgow.UpdateCommand.#ctor*
+  name: UpdateCommand
+  href: api/Glasgow.UpdateCommand.html#Glasgow_UpdateCommand__ctor_
+  commentId: Overload:Glasgow.UpdateCommand.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Glasgow.UpdateCommand.UpdateCommand
+  fullName.vb: Glasgow.UpdateCommand.New
+  nameWithType: UpdateCommand.UpdateCommand
+  nameWithType.vb: UpdateCommand.New
+- uid: Glasgow.UpdateCommand.Execute
+  name: Execute()
+  href: api/Glasgow.UpdateCommand.html#Glasgow_UpdateCommand_Execute
+  commentId: M:Glasgow.UpdateCommand.Execute
+  fullName: Glasgow.UpdateCommand.Execute()
+  nameWithType: UpdateCommand.Execute()
+- uid: Glasgow.UpdateCommand.Execute*
+  name: Execute
+  href: api/Glasgow.UpdateCommand.html#Glasgow_UpdateCommand_Execute_
+  commentId: Overload:Glasgow.UpdateCommand.Execute
+  isSpec: "True"
+  fullName: Glasgow.UpdateCommand.Execute
+  nameWithType: UpdateCommand.Execute
+- uid: Glasgow.UpdateCommand.Set(System.String,System.Object)
+  name: Set(string, object)
+  href: api/Glasgow.UpdateCommand.html#Glasgow_UpdateCommand_Set_System_String_System_Object_
+  commentId: M:Glasgow.UpdateCommand.Set(System.String,System.Object)
+  name.vb: Set(String, Object)
+  fullName: Glasgow.UpdateCommand.Set(string, object)
+  fullName.vb: Glasgow.UpdateCommand.Set(String, Object)
+  nameWithType: UpdateCommand.Set(string, object)
+  nameWithType.vb: UpdateCommand.Set(String, Object)
+- uid: Glasgow.UpdateCommand.Set*
+  name: Set
+  href: api/Glasgow.UpdateCommand.html#Glasgow_UpdateCommand_Set_
+  commentId: Overload:Glasgow.UpdateCommand.Set
+  isSpec: "True"
+  fullName: Glasgow.UpdateCommand.Set
+  nameWithType: UpdateCommand.Set
+- uid: Glasgow.UpdateCommand.Where(Glasgow.Operator,System.String,System.Object)
+  name: Where(Operator, string, object)
+  href: api/Glasgow.UpdateCommand.html#Glasgow_UpdateCommand_Where_Glasgow_Operator_System_String_System_Object_
+  commentId: M:Glasgow.UpdateCommand.Where(Glasgow.Operator,System.String,System.Object)
+  name.vb: Where(Operator, String, Object)
+  fullName: Glasgow.UpdateCommand.Where(Glasgow.Operator, string, object)
+  fullName.vb: Glasgow.UpdateCommand.Where(Glasgow.Operator, String, Object)
+  nameWithType: UpdateCommand.Where(Operator, string, object)
+  nameWithType.vb: UpdateCommand.Where(Operator, String, Object)
+- uid: Glasgow.UpdateCommand.Where*
+  name: Where
+  href: api/Glasgow.UpdateCommand.html#Glasgow_UpdateCommand_Where_
+  commentId: Overload:Glasgow.UpdateCommand.Where
+  isSpec: "True"
+  fullName: Glasgow.UpdateCommand.Where
+  nameWithType: UpdateCommand.Where
