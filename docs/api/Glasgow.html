@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace Glasgow | Glasgow </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace Glasgow | Glasgow ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Glasgow">
+            Glasgow
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Glasgow">
+
+  <h1 id="Glasgow" data-uid="Glasgow" class="text-break">Namespace Glasgow</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.CryptographyUtil.html">CryptographyUtil</a></dt>
+      <dd><p>Provides utility methods for cryptographic operations used throughout GlasgowDB,
+including secure key derivation from passwords or passphrases.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.DatabaseIO.html">DatabaseIO</a></dt>
+      <dd><p>Handles secure serialization and deserialization of a <a class="xref" href="Glasgow.GlasgowDB.html">GlasgowDB</a> instance to and from disk.</p>
+<p>This class provides AES-256-CBC encryption for secure database persistence, using a passphrase-derived key
+via PBKDF2 and a randomly generated Initialization Vector (IV) embedded at the start of the file.</p>
+<p>All data (including table structure and row content) is stored in a binary format after encryption.</p>
+<p>
+<b>Security Considerations:</b>
+<ul><li>Encryption uses AES-256-CBC for strong symmetric encryption.</li><li>Keys are derived from passphrases using PBKDF2 to resist brute force attacks.</li><li>The IV is stored unencrypted at the beginning of the file and is used for key derivation and decryption.</li></ul>
+
+<p>
+<b>Typical Usage:</b><br>
+- Use <a class="xref" href="Glasgow.DatabaseIO.html#Glasgow_DatabaseIO_SaveToFile_Glasgow_GlasgowDB_System_String_System_String_">SaveToFile(GlasgowDB, string, string)</a> to persist a <a class="xref" href="Glasgow.GlasgowDB.html">GlasgowDB</a> securely.<br>
+- Use <a class="xref" href="Glasgow.DatabaseIO.html#Glasgow_DatabaseIO_LoadFromFile_System_String_System_String_">LoadFromFile(string, string)</a> to recover it using the same passphrase.
+</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.DeleteCommand.html">DeleteCommand</a></dt>
+      <dd><p>Constructs and runs a DELETE operation against a specified table in a <a class="xref" href="Glasgow.GlasgowDB.html">GlasgowDB</a> instance.</p>
+<p>
+This class leverages the filtering functionality inherited from <a class="xref" href="Glasgow.QueryBase.html">QueryBase</a> to enable
+<code>WHERE</code> clauses that refine which rows to remove. Each <a class="xref" href="Glasgow.DeleteCommand.html#Glasgow_DeleteCommand_Where_Glasgow_Operator_System_String_System_Object_">Where(Operator, string, object)</a> call adds an additional
+predicate: all predicates are combined with logical AND semantics.
+</p>
+<p>
+Example usage:
+<pre><code class="lang-csharp">int deletedCount = db.Delete("Users")
+    .Where(Operator.EQUALS, "IsActive", false)
+    .Where(Operator.LESS_THAN, "LastLogin", someDate)
+    .Execute();</code></pre>
+This example deletes all rows in the "Users" table that are inactive and have a last login earlier than <code>someDate</code>.
+
+<p>
+If the specified table does not exist in the database, <a class="xref" href="Glasgow.DeleteCommand.html#Glasgow_DeleteCommand_Execute">Execute()</a> returns zero without throwing.
+</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.GlasgowDB.html">GlasgowDB</a></dt>
+      <dd><p>Represents an in-memory database that holds named tables and provides basic
+relational operations (CREATE, DROP, INSERT, SELECT, DELETE, UPDATE).</p>
+<p>
+All data is stored in memory as <a class="xref" href="Glasgow.Table.html">Table</a> objects, each identified by a unique string name.
+This class is not thread-safe: concurrent modifications (e.g., two threads inserting into the same table)
+can lead to inconsistent state. If thread safety is required, external synchronization must be applied.
+</p>
+<p>
+Example usage:
+<pre><code class="lang-csharp">// Create a new database
+var db = new GlasgowDB();
+// Create a table "Users" with columns "Id", "Name", "Email"
+db.CreateTable("Users", "Id", "Name", "Email");
+// Insert a row into "Users"
+db.InsertInto(
+    "Users",
+    new[] { "Id", "Name", "Email" },
+    new object[] { 1, "Alice", "alice@example.com" }
+);
+// Query the "Users" table
+var results = db.Select("Users", "Id", "Name")
+    .Where(Operator.EQUALS, "Name", "Alice")
+    .ToList();
+foreach (var row in results)
+{
+    Console.WriteLine($"Id: {row["Id"]}, Name: {row["Name"]}");
+}
+// Delete inactive users
+int deleted = db.Delete("Users")
+    .Where(Operator.EQUALS, "IsActive", false)
+    .Execute();
+// Drop the "Users" table entirely
+bool dropped = db.DropTable("Users");</code></pre>
+
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.Null.html">Null</a></dt>
+      <dd><p>Provides a type-safe, singleton-based representation of null or missing values
+within the GlasgowDB system, especially in scenarios where <code>null</code> cannot
+be used directly or unambiguously.</p>
+<p>
+In many serialization, storage, or transport layers, the native <code>null</code> reference 
+in .NET may lose semantic meaning or cause ambiguity, especially when dealing with 
+heterogeneous data structures or binary serialization formats that don't inherently 
+preserve <code>null</code> as a unique concept.
+</p>
+<p>
+To solve this, the GlasgowDB system introduces a special singleton object that acts 
+as a "boxed null." This object can be safely stored, compared, and transferred in 
+any context where a non-null reference is required but the semantic value is intended 
+to represent the absence of meaningful data.
+</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.QueryBase.html">QueryBase</a></dt>
+      <dd><p>Represents an abstract base class designed to facilitate query-building operations over tabular data structures.
+This class provides core functionality for defining and applying filter conditions to a collection of rows,
+where each row is represented as a dictionary of column names and corresponding values.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.ResultSet.html">ResultSet</a></dt>
+      <dd><p>Represents the result of a SELECT query operation within GlasgowDB.</p>
+<p>The <a class="xref" href="Glasgow.ResultSet.html">ResultSet</a> class encapsulates a filtered, ordered subset of data rows retrieved
+from the underlying GlasgowDB in-memory database. Each row is represented as a dictionary
+mapping column names to their corresponding values. This class supports fluent method chaining
+for applying WHERE clauses, ordering, and union operations to shape and refine query results.</p>
+<p>This class inherits from <a class="xref" href="Glasgow.QueryBase.html">QueryBase</a> and utilizes internal logic for comparing, filtering,
+and manipulating rows based on column values, enabling dynamic, composable queries.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.SortComparer.html">SortComparer</a></dt>
+      <dd><p>Provides a flexible comparison mechanism for sorting heterogeneous objects in either ascending or descending order.
+This comparer is primarily used in data structures or algorithms that require ordering—such as sorting collections—
+and handles <code>null</code> values gracefully, ensuring deterministic and consistent comparisons.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.Table.html">Table</a></dt>
+      <dd><p>Represents a database table, containing a name, a collection of column names, and a collection of rows.
+Each row is stored as a dictionary mapping column names to their corresponding values.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.UpdateCommand.html">UpdateCommand</a></dt>
+      <dd><p>Constructs and runs an UPDATE operation against a specified table in a <a class="xref" href="Glasgow.GlasgowDB.html">GlasgowDB</a> instance.</p>
+<p>
+This class leverages the filtering functionality inherited from <a class="xref" href="Glasgow.QueryBase.html">QueryBase</a> to enable
+<code>WHERE</code> clauses that refine which rows to update. Each <a class="xref" href="Glasgow.UpdateCommand.html#Glasgow_UpdateCommand_Where_Glasgow_Operator_System_String_System_Object_">Where(Operator, string, object)</a> call adds an additional
+predicate: all predicates are combined with logical AND semantics.
+</p>
+<p>
+Example usage:
+<pre><code class="lang-csharp">int rowsAffected = db.Update("Users")
+                      .Set("IsActive", false)
+                      .Where(Operator.LESS_THAN, "LastLogin", someDate)
+                      .Execute();</code></pre>
+This example sets the <code>IsActive</code> column to <code>false</code> for all rows in the "Users" table
+whose <code>LastLogin</code> is earlier than <code>someDate</code>.
+
+<p>
+If the specified table does not exist in the database, <a class="xref" href="Glasgow.UpdateCommand.html#Glasgow_UpdateCommand_Execute">Execute()</a> returns zero without throwing.
+</p>
+</dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.DataTypes.html">DataTypes</a></dt>
+      <dd><p>Enumerates all supported data types used by the <a class="xref" href="Glasgow.GlasgowDB.html">GlasgowDB</a> system for
+serializing and storing values in its internal tabular structure.</p>
+<p>Each enumeration value corresponds to a specific .NET type and dictates how the value is
+serialized, deserialized, stored, and interpreted within the database engine.
+These types ensure compatibility with common .NET primitives and are essential for
+consistent binary serialization handled by <span class="xref">Glasgow.SerializerUtil</span>.</p>
+<p>The <span class="xref">Glasgow.SerializerUtil</span> uses this enum as metadata to identify the type of
+value being serialized or deserialized, enabling type-safe reconstruction of data across
+sessions, storage layers, or transport boundaries.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.Operator.html">Operator</a></dt>
+      <dd><p>Enumerates the available comparison operators used for filtering, searching, and conditional
+evaluations within GlasgowDB queries.</p>
+<p>
+These operators define how a particular field or value in a dataset should be evaluated 
+against a given condition during query execution. They are typically used in where-clause 
+expressions, filter functions, or conditional indexes.
+</p>
+<p>
+The applicable operators depend on the data type of the field being compared. For example, 
+numeric and temporal fields support range-based comparisons (e.g., <a class="xref" href="Glasgow.Operator.html#Glasgow_Operator_LESS_THAN">LESS_THAN</a>), 
+whereas string fields support pattern-based matching (e.g., <a class="xref" href="Glasgow.Operator.html#Glasgow_Operator_CONTAINS">CONTAINS</a>).
+</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Glasgow.SortDirection.html">SortDirection</a></dt>
+      <dd><p>Defines the direction in which a collection should be sorted.</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
