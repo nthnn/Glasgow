@@ -87,14 +87,51 @@
         <article data-uid="">
 
 <h2 id="installation">Installation</h2>
-<p>You can add Glasgow to your project using one of the following methods:</p>
-<h3 id="option-1-manual-integration">Option 1: Manual Integration</h3>
-<p>Clone the repository and add the Glasgow source files directly into your <code>.NET</code> project:</p>
-<pre><code class="lang-bash">git clone https://github.com/nthnn/Glasgow.git
+<p>Glasgow can be easily installed into your .NET project using NuGet Package Manager.</p>
+<h3 id="installation-via-nuget-package-manager">Installation via NuGet Package Manager</h3>
+<p>The simplest way to add Glasgow to your project is through NuGet.</p>
+<p align="center">
+    <img alt="Glasgow on NuGet" src="../assets/nuget-screenshot.png">
+</p>
+<h3 id="using-the-net-cli">Using the .NET CLI</h3>
+<p>Open your terminal or command prompt, navigate to your project's directory, and run the following command:</p>
+<pre><code class="lang-bash">dotnet add package Glasgow --version 1.0.0
 </code></pre>
-<p>Then add the relevant <code>.cs</code> files to your project manually or using your IDE.</p>
-<h3 id="option-2-nuget-coming-soon">Option 2: NuGet (Coming Soon)</h3>
-<p>We plan to publish Glasgow as a NuGet package for easier integration in the future. Stay tuned!</p>
+<h3 id="using-visual-studio">Using Visual Studio</h3>
+<ol>
+<li>Open your project in Visual Studio.</li>
+<li>Right-click on your project in the Solution Explorer and select &quot;Manage NuGet Packages...&quot;.</li>
+<li>In the &quot;Browse&quot; tab, search for <code>Glasgow</code>.</li>
+<li>Select the <code>Glasgow</code> package and click &quot;Install&quot;.</li>
+<li>Confirm the installation when prompted.</li>
+</ol>
+<h3 id="using-powershell-package-manager-console-in-visual-studio">Using PowerShell (Package Manager Console in Visual Studio)</h3>
+<p>If you're in Visual Studio, you can also use the Package Manager Console:</p>
+<ol>
+<li><p>Go to <code>Tools</code> &gt; <code>NuGet Package Manager</code> &gt; <code>Package Manager Console</code>.</p>
+</li>
+<li><p>In the console, run the following command:</p>
+<pre><code class="lang-powershell">Install-Package Glasgow -Version 1.0.0
+</code></pre>
+</li>
+<li><p>After installation, you can verify that the package is correctly referenced in your project file (e.g., <code>.csproj</code>). Look for an <code>&lt;PackageReference&gt;</code> entry similar to this:</p>
+</li>
+</ol>
+<pre><code class="lang-xml">&lt;Project Sdk=&quot;Microsoft.NET.Sdk&quot;&gt;
+
+  &lt;PropertyGroup&gt;
+    &lt;OutputType&gt;Exe&lt;/OutputType&gt;
+    &lt;TargetFramework&gt;net8.0&lt;/TargetFramework&gt;
+    &lt;ImplicitUsings&gt;enable&lt;/ImplicitUsings&gt;
+    &lt;Nullable&gt;enable&lt;/Nullable&gt;
+  &lt;/PropertyGroup&gt;
+
+  &lt;ItemGroup&gt;
+    &lt;PackageReference Include=&quot;Glasgow&quot; Version=&quot;1.0.0&quot; /&gt;
+  &lt;/ItemGroup&gt;
+
+&lt;/Project&gt;
+</code></pre>
 
 </article>
 

@@ -220,6 +220,16 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "assets/nuget-screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/nuget-screenshot.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
