@@ -221,43 +221,43 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/examples.md",
+      "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "docs/examples.html"
+          "relative_path": "index.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/installation.md",
+      "source_relative_path": "pages/examples.md",
       "output": {
         ".html": {
-          "relative_path": "docs/installation.html"
+          "relative_path": "pages/examples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "pages/installation.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "docs/toc.yml",
+      "source_relative_path": "pages/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "docs/toc.html"
+          "relative_path": "pages/toc.html"
         },
         ".json": {
-          "relative_path": "docs/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html"
+          "relative_path": "pages/toc.json"
         }
       },
       "version": ""
